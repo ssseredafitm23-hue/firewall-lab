@@ -1,0 +1,17 @@
+HTTP 200
+{
+  "firewall.started": 1,
+  "admin.auth_failed": 1,
+  "traffic.denied": 19,
+  "DENY": 19,
+  "admin.rule_added": 6,
+  "traffic.allowed": 24,
+  "ALLOW": 24,
+  "tcp.closed": 14,
+  "udp.forwarded": 10,
+  "admin.rule_updated": 8,
+  "admin.rule_deleted": 1,
+  "admin.conflict_rejected": 2,
+  "admin.request_rejected": 2,
+  "admin.rules_reloaded": 2
+}

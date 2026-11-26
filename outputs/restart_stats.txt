@@ -1,0 +1,9 @@
+HTTP 200
+{
+  "firewall.started": 1,
+  "traffic.allowed": 1,
+  "ALLOW": 1,
+  "tcp.closed": 1,
+  "traffic.denied": 1,
+  "DENY": 1
+}

@@ -1,0 +1,22 @@
+=== HOT RELOAD AND CONTINUITY ===
+[PASS] Existing TCP connection accepted
+[PASS] Hot reload applied
+[PASS] New TCP IN connection denied
+[PASS] Existing TCP connection remains active
+
+=== PARALLEL TRAFFIC ===
+[PASS] Admin API available
+[PASS] Six parallel network requests
+
+=== INVALID RELOAD ===
+[PASS] Invalid configuration rejected
+[PASS] Previous rules version preserved
+[PASS] Active policy preserved
+
+=== FINAL STATE ===
+[PASS] Original policy restored
+[PASS] Process PID and run ID unchanged
+PID: 14678
+Rules version: 11 -> 13
+
+ALL 11 CHECKS PASSED

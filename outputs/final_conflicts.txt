@@ -1,0 +1,12 @@
+HTTP 200
+[
+  {
+    "type": "OVERLAP",
+    "severity": "WARNING",
+    "rule_ids": [
+      6,
+      1
+    ],
+    "effective_rule": 6
+  }
+]

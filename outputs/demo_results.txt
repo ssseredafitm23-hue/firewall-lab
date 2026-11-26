@@ -1,0 +1,57 @@
+=== DEFAULT POLICY ===
+PID: 14678
+[PASS] Default deny TCP
+[PASS] Default deny UDP
+
+=== DYNAMIC RULE MANAGEMENT ===
+[PASS] TCP IN allowed
+[PASS] UDP IN allowed
+[PASS] TCP OUT still denied
+[PASS] UDP OUT still denied
+[PASS] TCP OUT allowed
+[PASS] UDP OUT allowed
+
+=== IP FILTERING ===
+[PASS] Source 127.0.0.1 allowed
+[PASS] Source 127.0.0.2 denied
+[PASS] Disabled deny rule
+[PASS] Re-enabled deny rule
+[PASS] Deleted deny rule
+
+=== PORT FILTERING ===
+[PASS] Modified destination port
+[PASS] UDP unaffected by TCP rule
+[PASS] Restored destination port
+
+=== CONFLICT HANDLING ===
+[PASS] Duplicate rejected
+[PASS] Conflicting rule rejected
+[PASS] Invalid port rejected
+[PASS] Traffic remains operational
+
+=== PERSISTENCE AND CONTINUITY ===
+[PASS] Same process PID
+[PASS] Same run ID
+[PASS] Rules version increased
+[PASS] Rules saved to disk
+Final PID: 14678
+Rules version: 1 -> 11
+
+=== FIREWALL STATISTICS ===
+{
+  "firewall.started": 1,
+  "admin.auth_failed": 1,
+  "traffic.denied": 8,
+  "DENY": 8,
+  "admin.rule_added": 5,
+  "traffic.allowed": 11,
+  "ALLOW": 11,
+  "tcp.closed": 7,
+  "udp.forwarded": 4,
+  "admin.rule_updated": 4,
+  "admin.rule_deleted": 1,
+  "admin.conflict_rejected": 2,
+  "admin.request_rejected": 1
+}
+
+ALL 24 CHECKS PASSED

@@ -1,0 +1,63 @@
+HTTP 200
+[
+  {
+    "id": 1,
+    "action": "ALLOW",
+    "src_ip_cidr": "127.0.0.0/8",
+    "dst_ip_cidr": "127.0.0.1/32",
+    "src_port": 0,
+    "dst_port": 8000,
+    "proto": "TCP",
+    "direction": "IN",
+    "priority": 20,
+    "enabled": true
+  },
+  {
+    "id": 2,
+    "action": "ALLOW",
+    "src_ip_cidr": "127.0.0.0/8",
+    "dst_ip_cidr": "127.0.0.1/32",
+    "src_port": 0,
+    "dst_port": 9000,
+    "proto": "UDP",
+    "direction": "IN",
+    "priority": 20,
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "action": "ALLOW",
+    "src_ip_cidr": "127.0.0.0/8",
+    "dst_ip_cidr": "127.0.0.1/32",
+    "src_port": 0,
+    "dst_port": 8000,
+    "proto": "TCP",
+    "direction": "OUT",
+    "priority": 20,
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "action": "ALLOW",
+    "src_ip_cidr": "127.0.0.0/8",
+    "dst_ip_cidr": "127.0.0.1/32",
+    "src_port": 0,
+    "dst_port": 9000,
+    "proto": "UDP",
+    "direction": "OUT",
+    "priority": 20,
+    "enabled": true
+  },
+  {
+    "id": 6,
+    "action": "DENY",
+    "src_ip_cidr": "127.0.0.3/32",
+    "dst_ip_cidr": "0.0.0.0/0",
+    "src_port": 0,
+    "dst_port": 8000,
+    "proto": "TCP",
+    "direction": "IN",
+    "priority": 5,
+    "enabled": true
+  }
+]

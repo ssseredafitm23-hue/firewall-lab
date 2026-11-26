@@ -1,0 +1,59 @@
+=== FIREWALL SECURITY ANALYSIS ===
+Total records: 96
+Malformed records: 0
+Traffic decisions: 45
+
+=== EVENT TYPES ===
+traffic.allowed: 25
+traffic.denied: 20
+tcp.closed: 15
+udp.forwarded: 10
+admin.rule_updated: 8
+admin.rule_added: 6
+firewall.started: 2
+admin.conflict_rejected: 2
+admin.request_rejected: 2
+admin.rules_reloaded: 2
+firewall.stopped: 2
+admin.auth_failed: 1
+admin.rule_deleted: 1
+
+=== TRAFFIC STATISTICS ===
+action:
+  ALLOW: 25
+  DENY: 20
+protocol:
+  TCP: 31
+  UDP: 14
+direction:
+  IN: 36
+  OUT: 9
+reason:
+  matched_rule: 35
+  default_deny: 10
+rule_id:
+  1: 11
+  None: 10
+  6: 8
+  2: 7
+  3: 4
+  4: 3
+  5: 2
+
+=== TOP DENIED SOURCES ===
+127.0.0.1: 10
+127.0.0.3: 8
+127.0.0.2: 2
+
+=== ANOMALY DETECTION ===
+Threshold: 5
+Window: 60 seconds
+Detected anomalies: 2
+SECURITY ALERT: {"event": "DENY_ANOMALY", "severity": "ALERT", "timestamp": "2026-11-26T02:16:21.869863+00:00", "src_ip": "127.0.0.1", "denied_count": 5, "window_seconds": 60}
+SECURITY ALERT: {"event": "DENY_ANOMALY", "severity": "ALERT", "timestamp": "2026-11-26T02:21:01.207130+00:00", "src_ip": "127.0.0.3", "denied_count": 5, "window_seconds": 60}
+
+=== FILTERED TRAFFIC ===
+Matching records: 45
+CSV exported: outputs/final_traffic_events.csv
+
+Analysis completed

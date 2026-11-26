@@ -1,0 +1,14 @@
+
+=== ALLOWED ===
+Total packets: 26
+TCP to proxy: 5
+TCP to target: 6
+UDP to proxy: 1
+UDP to target: 1
+
+=== DENIED ===
+Total packets: 8
+TCP to proxy: 3
+TCP to target: 0
+UDP to proxy: 1
+UDP to target: 0

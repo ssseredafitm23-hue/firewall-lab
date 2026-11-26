@@ -1,0 +1,6 @@
+timestamp,run_id,connection_id,event,direction,protocol,src_ip,src_port,dst_ip,dst_port,action,rule_id,reason,rules_version
+2026-11-26T02:21:01.172752+00:00,a81e59aff6824216a40afd056e8584fb,75c8afd31a0c48b393e4fcc72a82db8e,traffic.denied,IN,TCP,127.0.0.3,55594,127.0.0.1,8000,DENY,6,matched_rule,14
+2026-11-26T02:21:01.181766+00:00,a81e59aff6824216a40afd056e8584fb,a631655691e94859b3a7aa3321bb9e1b,traffic.denied,IN,TCP,127.0.0.3,55598,127.0.0.1,8000,DENY,6,matched_rule,14
+2026-11-26T02:21:01.190178+00:00,a81e59aff6824216a40afd056e8584fb,6c32363746174db3a17d1a9394b1e911,traffic.denied,IN,TCP,127.0.0.3,55604,127.0.0.1,8000,DENY,6,matched_rule,14
+2026-11-26T02:21:01.198683+00:00,a81e59aff6824216a40afd056e8584fb,840a72dbaefd4f8a9be5922ed5b47318,traffic.denied,IN,TCP,127.0.0.3,55610,127.0.0.1,8000,DENY,6,matched_rule,14
+2026-11-26T02:21:01.207130+00:00,a81e59aff6824216a40afd056e8584fb,4cd23ffd29694b9e9a9fcb85f82a672c,traffic.denied,IN,TCP,127.0.0.3,55616,127.0.0.1,8000,DENY,6,matched_rule,14

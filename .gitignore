@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+baseline/
+*.rar
+logs/
+config/
+.env
+.env.*
+*.key
+*.pcap
+*.pcapng

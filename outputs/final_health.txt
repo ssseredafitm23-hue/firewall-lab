@@ -1,0 +1,9 @@
+HTTP 200
+{
+  "status": "ok",
+  "pid": 14678,
+  "run_id": "a81e59aff6824216a40afd056e8584fb",
+  "rules_version": 18,
+  "rules_count": 5,
+  "default_policy": "DENY"
+}
